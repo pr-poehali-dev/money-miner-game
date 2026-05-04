@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Webhook ping (no callback)",
+      "method": "POST",
+      "path": "/",
+      "body": "{}",
+      "expectedStatus": 200,
+      "expectedBody": "ok",
+      "bodyMatcher": "partial"
+    }
+  ]
+}
