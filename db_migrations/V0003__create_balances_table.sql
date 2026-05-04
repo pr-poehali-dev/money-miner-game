@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS t_p86571260_money_miner_game.balances (
+  user_id TEXT PRIMARY KEY,
+  balance NUMERIC(12,2) NOT NULL DEFAULT 0,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
